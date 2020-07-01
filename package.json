@@ -1,0 +1,29 @@
+{
+  "name": "nodetestapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "build": "cd client && yarn build",
+    "server": "nodemon server/server.js",
+    "dev":"concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "install_all": "concurrently yarn \"cd client && yarn\" \"cd server && yarn\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "add": "^2.0.6",
+    "https-proxy-agent": "^2.2.1",
+    "proxy-agent": "^3.0.3",
+    "yarn": "^1.19.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "concurrently": "^3.6.1",
+    "cross-env": "^5.2.0",
+    "mocha": "^6.2.1",
+    "nodemon": "^1.18.7"
+  }
+}

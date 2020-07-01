@@ -1,0 +1,58 @@
+{
+  "local": {
+    "username": "",
+    "password": "",
+    "database": "nodetestdb",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "define": {
+      "timestamps": false,
+      "freezeTableName": true
+    },
+    "logging": false,
+    "seederStorage": "sequelize"
+  },
+  "development": {
+    "username": "",
+    "password": "",
+    "database": "id_gfms_vms",
+    "host": "gfmsdb-id.rtic-thai.info",
+    "port": 5432,
+    "dialect": "postgres",
+    "define": {
+      "timestamps": false,
+      "freezeTableName": true
+    },
+    "logging": false,
+    "seederStorage": "sequelize"
+  },
+  "test": {
+    "username": "",
+    "password": "",
+    "database": "id_gfms_vms",
+    "host": "db.tfleet.internal",
+    "port": 11322,
+    "dialect": "postgres",
+    "define": {
+      "timestamps": false,
+      "freezeTableName": true
+    },
+    "logging": false,
+    "seederStorage": "sequelize"
+  },
+  "production": {
+    "username": "",
+    "password": "",
+    "database": "id_gfms_vms",
+    "host": "db.tfleet.internal",
+    "port": 11322,
+    "dialect": "postgres",
+    "define": {
+      "timestamps": false,
+      "freezeTableName": true
+    },
+    "logging": false,
+    "seederStorage": "sequelize"
+  }
+}
