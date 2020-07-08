@@ -50,3 +50,4 @@ nodejs 10系, npm, yarnがインストールされることを前提とする。
 
 -  履歴
    developmentを作成
+   ->updateしてみる
