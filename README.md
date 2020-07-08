@@ -49,6 +49,9 @@ nodejs 10系, npm, yarnがインストールされることを前提とする。
    ⇒インバウンドの確認
 
 -  履歴
+   ```shell
    developmentを作成
    ->updateしてみる
      ->feature1
+       update
+   ```shell
