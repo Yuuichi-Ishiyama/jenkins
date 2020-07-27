@@ -52,4 +52,3 @@ nodejs 10系, npm, yarnがインストールされることを前提とする。
    developmentを作成
    ->updateしてみる
      ->feature1
-     ->feature1-1
