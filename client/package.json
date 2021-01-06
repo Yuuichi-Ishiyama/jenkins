@@ -15,7 +15,7 @@
     "ag-grid-community": "^19.0.0",
     "ag-grid-react": "^19.0.0",
     "apisauce": "^1.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "connected-react-router": "^4.5.0",
     "crypto": "^1.0.1",
